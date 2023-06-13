@@ -6,7 +6,7 @@ const Button = ({ title, styles, handleClick, btnType }: ButtonProps) => {
 	return (
 		<button
 			disabled={false}
-			type={btnType}
+			type={btnType || "button"}
 			className={`custom-btn ${styles}`}
 			onClick={handleClick}
 		>

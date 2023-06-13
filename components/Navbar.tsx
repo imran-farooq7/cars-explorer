@@ -18,12 +18,10 @@ const Navbar = () => {
 				<div className="flex gap-3">
 					<Button
 						title="Sign Up"
-						btnType="button"
 						styles="text-white rounded-full bg-primary-blue min-w-[130px]"
 					/>
 					<Button
 						title="Sign in"
-						btnType="button"
 						styles="text-primary-blue rounded-full bg-white min-w-[130px]"
 					/>
 				</div>

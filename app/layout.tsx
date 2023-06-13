@@ -1,5 +1,6 @@
 import { Navbar } from "@/components";
 import "./globals.css";
+import { Footer } from "@/components";
 
 export const metadata = {
 	title: "Cars Explorer",
@@ -16,6 +17,7 @@ export default function RootLayout({
 			<body>
 				<Navbar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
