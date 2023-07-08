@@ -2,7 +2,7 @@ const url = "https://cars-by-api-ninjas.p.rapidapi.com/v1/cars?model=Ford";
 const options = {
 	method: "GET",
 	headers: {
-		"X-RapidAPI-Key": "c9e5c16f7dmsh19db067b2f7a1c3p1042c5jsn2eb220666674",
+		"X-RapidAPI-Key": `${process.env.NEXT_PUBLIC_RAPID_KEY}`,
 		"X-RapidAPI-Host": "cars-by-api-ninjas.p.rapidapi.com",
 	},
 };
